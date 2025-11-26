@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Árbol Binario de Búsqueda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Árbol Binario de Búsqueda</h1>
+
+    <div class="controls">
+        <label>Máximo de nodos:</label>
+        <input type="number" id="maxNodos" value="10" min="1">
+
+        <label>Valor:</label>
+        <input type="number" id="valor">
+
+        <button onclick="insertar()">Insertar</button>
+        <button onclick="eliminarNodo()">Eliminar</button>
+        <button onclick="recorrido('pre')">Preorden</button>
+        <button onclick="recorrido('in')">Inorden</button>
+        <button onclick="recorrido('post')">Postorden</button>
+
+        <p><b>Iterador:</b> <span id="iterador">Ninguno</span></p>
+    </div>
+
+    <canvas id="canvas" width="1200" height="600"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>

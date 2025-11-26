@@ -1,0 +1,46 @@
+body {
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+input, button {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin: 5px;
+}
+
+button {
+    background-color: #00bcd4;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #008ba3;
+}
+
+#contenedorPila {
+    display: flex;
+    flex-direction: column-reverse; /* Esto hace que el primer valor quede abajo */
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.nodo {
+    width: 120px;
+    padding: 15px;
+    background-color: #222;
+    border: 3px solid #00e1ff;
+    border-radius: 12px;
+    font-size: 20px;
+}
+
+.nodo.iterador {
+    border-color: #ff00ea !important;
+}
+

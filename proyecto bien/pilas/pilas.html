@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pila Interactiva</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>Pila Interactiva</h1>
+
+    <div class="config">
+        <label>Máximo de nodos: </label>
+        <input type="number" id="maxNodos" value="5" min="1">
+        <button onclick="cambiarMaxNodos()">Aplicar</button>
+    </div>
+
+    <div class="acciones">
+        <input type="text" id="valorPush" placeholder="Valor a insertar">
+        <button onclick="pushValor()">PUSH</button>
+        <button onclick="popValor()">POP</button>
+    </div>
+
+    <div class="acciones">
+        <button onclick="moverIteradorArriba()">Iterador ↑</button>
+        <button onclick="moverIteradorAbajo()">Iterador ↓</button>
+    </div>
+
+    <h3 id="textoIterador">Iterador: null</h3>
+
+    <div id="contenedorPila"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

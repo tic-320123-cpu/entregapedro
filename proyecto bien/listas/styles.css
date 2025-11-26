@@ -1,0 +1,71 @@
+/* ======= ESTILO GENERAL ======= */
+body {
+    background: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 { color: #00e1ff; }
+
+/* ======= BOTONES ======= */
+.controls button, 
+.config button, 
+.iterador button {
+    background: #00a2ff;
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.controls button:hover, 
+.iterador button:hover, 
+.config button:hover {
+    background: #0080cc;
+}
+
+/* ======= ENTRADAS ======= */
+input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+}
+
+/* ======= LISTA VISUAL ======= */
+.lista {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.nodo {
+    width: 90px;
+    height: 90px;
+    background: #222;
+    border: 3px solid #00e1ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    font-weight: bold;
+    position: relative;
+}
+
+.nodo.iterador {
+    border-color: #ff00ea;
+}
+
+/* ======= MENSAJES ======= */
+.mensaje {
+    margin-top: 20px;
+    font-size: 18px;
+    height: 20px;
+}

@@ -1,0 +1,53 @@
+body {
+    background: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.seccion-letra {
+    background: #0a0a0a;
+    padding: 12px;
+    margin-top: 25px;
+    border-left: 6px solid #00e5ff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#glosario {
+    width: 80%;
+    margin: auto;
+}
+
+.item {
+    background: #222;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    border-left: 5px solid #00bcd4;
+    transition: 0.3s;
+}
+
+.item:hover {
+    background: #333;
+}
+
+.titulo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00e5ff;
+}
+
+.definicion {
+    display: none;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ddd;
+}
